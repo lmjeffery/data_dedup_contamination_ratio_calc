@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lmjeffery-deploy_jd231"
+name = "lmjeffery-data_dedup_contamination_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算模型部署工程师·数据去重与污染检测相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lmjeffery.github.io"
-Repository = "https://github.com/lmjeffery/deploy_jd231"
-Issues = "https://github.com/lmjeffery/deploy_jd231/issues"
+Repository = "https://github.com/lmjeffery/data_dedup_contamination_ratio_calc"
+Issues = "https://github.com/lmjeffery/data_dedup_contamination_ratio_calc/issues"
 
 [project.scripts]
-deploy_jd231 = "deploy_jd231:main"
+data_dedup_contamination_ratio_calc = "data_dedup_contamination_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["deploy_jd231"]
+py-modules = ["data_dedup_contamination_ratio_calc"]
